@@ -22,6 +22,7 @@ export const NavBarContent = styled.nav`
       border-radius: 12px;
       color: #F71755;
       text-transform: uppercase;
+      font-weight: bold;
       transition: 0.3s;
 
       &:hover{
