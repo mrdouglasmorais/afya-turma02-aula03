@@ -1,8 +1,14 @@
 import React from 'react';
-import Home from './views/pages/Home';
+import Routes from './routes';
+import GlobalStyles from './assets/GlobalStyles';
 
 const App: React.FC = () => {
-  return <Home/>;
+  return (
+    <>
+      <Routes/>
+      <GlobalStyles/>
+    </>
+  );
 }
 
 export default App;
